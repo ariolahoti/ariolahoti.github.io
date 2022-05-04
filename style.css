@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 100px;
+    margin: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    float: left;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(182, 126, 126, 0.886);
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.left-col{
+    margin-left: 6%;
+}
+
+.left-col h1 {
+    font-size: 60px;
+    color:#fff;
+    line-height: 110px;
+    float: left;
+    margin-top: 20px;
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+
+}
+
+.right-col p{
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.icon{
+    width: 80px;
+    cursor: pointer;
+
+}
+.container-2 {
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: rgb(242, 145, 145);
+	background-image: url(images/pink.jpg);
+	background-size: 100% 100%;
+}
+.row2 {
+	display: flex;
+	justify-content : space-between ;
+	align-items: center;
+	margin: 120px 0px;
+}
+.cmimet {
+	position: relative;
+	flex-basis: 60%;
+	display: flex;
+	align-items: center;
+}	
+.cmimet .music-logo {
+	width: 100%;
+	margin-left: 50px;
+	border-radius: 20px;
+}
+@media only screen and (max-width: 700px){
+	nav ul{
+		width: 100%;
+		background-image: url(images/pink.jpg);
+		position: absolute;
+		top: 75px;
+		right: 0;
+		z-index : 25;
+	}	
+	nav ul li {
+		display: block;
+		margin-top: 10px;
+		margin-bottom : 10px;
+	}	
+	nav ul li a{
+		color: rgb(255, 255, 255);	
+	}
+	.menu-icon {
+		display: block;
+	}
+	#menuList {
+		overflow: hidden;
+		transition: 0.5s;
+	}
+	.row {
+		flex-direction: column;
+		margin: 50px 0;
+	}
+	.row1 {
+		flex-direction: column-reverse;
+		margin: 50px 0;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
